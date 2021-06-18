@@ -1,0 +1,109 @@
+@font-face {font-family:'NanumGothic'; src: url('images/NanumGothic.eot');}  
+* {
+    margin: 0;
+    font-family: 'NanumGothic', sans-serif;
+    text-decoration: none;
+}
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header {
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 1200px;  
+    background: #F5D161; 
+}
+.header img {
+    width: 152px;
+    margin-left: 40px;
+}
+.nav {
+    float: right;
+    margin-right: 40px;
+    text-decoration: none;     
+    color: black;
+    background: #fff;
+    margin-top: 10px;
+    width: 620px;
+    height: 40px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 20px;
+    padding-top: 10px;
+}
+span {
+    margin-right: 20px;
+}
+.nav ul li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 20px;
+    color: black;
+    margin-bottom: 20px;    
+}
+.nav ul {
+    margin-right: 5px;
+}
+.nav a:hover {
+    color: #bd1828;
+    text-decoration: none; 
+    font-weight: 500;          
+}
+.nav ul li img {
+    width: 25px;
+    margin-right: 30px;
+}
+.main {
+    background-color: white;
+    background-image: url(../images/tour_img\ \(4\).jpg);
+    background-size: cover;
+    width: 1200px;
+    height: 550px;                
+    box-sizing: border-box;
+    padding-left: 67px;
+}
+.main-text {
+    text-align: left;
+    padding-top: 158px;
+    color: white;            
+    font-size: 45px;              
+    padding-bottom: 52px;
+}
+.main span {
+    font-size: 100px;
+    text-align: center;
+}
+#content {
+    width: 384px;
+    box-sizing: border-box;
+    float: left;
+    margin-right: 16px;
+    margin-bottom: 36px;
+    margin-top: 37px;
+}
+.none {
+    background: #FAE57C;
+    height: 189px;
+}
+#content:last-child {
+    margin-right: 0;
+}
+.touricon {
+    width: 105px;
+    padding-left: 64px;
+    padding-top: 44px;
+}
+.footer {
+    clear: both;
+    background: #28527A;
+    color: white;
+    text-align: center;
+    width: 1200px;
+    height: 138px;   
+    padding: 61px;  
+    box-sizing: border-box;     
+    font-size: 14px;
+  }
